@@ -1,10 +1,18 @@
 // Navigation code here
 .bigBox{
     border-bottom: 2px solid @main-border-color;
+    @media @phone{
+        width: 100%;
+        padding: 2% 0;
+    }
 #topStuff{
     .flexing();
     font-size: 5rem;
     padding: 1% 0;
+    @media @phone{
+        font-size: 4rem;
+        padding-bottom: 3%;
+    }
 }
 nav{
     .flexing();
@@ -13,6 +21,11 @@ nav{
     width: 30%;
     margin-left: 34%;
     padding-bottom: 1%;
+    @media @phone{
+        width: 100%;
+        margin: 0;
+        padding: 0 5%;
+    }
     a{
         text-decoration: none;
         color: @header-font-color;
