@@ -186,6 +186,7 @@ footer {
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
+  margin-bottom: 5%;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
@@ -236,6 +237,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  font-size: 2rem;
+  display: flex;
+  color: #F1F1F1;
+  padding: 2%;
+  border-radius: 5px;
+  margin-right: 70%;
+  align-items: center;
+  justify-content: center;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #22283A;
+  border: 1px solid #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
