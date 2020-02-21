@@ -3,7 +3,6 @@
 .home {
 
   .intro {
-
     h2 {
       padding: 15px;
     }
@@ -11,13 +10,15 @@
     p {
       padding:0 15px;
     }
-  
+    img{
+      border-radius: 5px;
+    }
   }
 
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    .mainWidth();
 
     img {
       width: 28%;
@@ -66,7 +67,7 @@
       margin-left: 4%;
       
       img {
-        width: 100%;
+        .mainWidth();
         height: auto;
         border-radius: 10px;
       }
